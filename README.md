@@ -4,9 +4,6 @@
 (httos://img.shields.io/badge/Data%20Analysis-9%20Queries-green)
 
 ## 📁 Project Structure
-credit-card-transactions-analysis/
-├── data/
-│ └── credit_card_sample.csv ← 300-row Kaggle sample (Excel import)
-└── sql/
-├── 01_create_tables.sql ← Database schema (CREATE TABLE)
-└── 03_business_queries.sql ← 9 business analysis queries
+- data/credit_card_sample.csv – Sample of the original Kaggle credit card transactions dataset used for analysis.  
+- sql/01_create_tables.sql – Script to recreate the table structure in SQL Server (SSMS).  
+- sql/03_business_queries.sql – Contains the 9 SQL queries used to analyze the credit card transactions.
